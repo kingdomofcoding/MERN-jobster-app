@@ -18,11 +18,3 @@ services:
     staticPublishPath: client/dist
     autoDeploy: true
     repo: https://github.com/kingdomofcoding/MERN-jobster-app
-
-databases:
-  - name: my-mongodb
-    plan: free
-    databaseName: mydatabase
-    user: myuser
-    password: mypassword
-    region: frankfurt
