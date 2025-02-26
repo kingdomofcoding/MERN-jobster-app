@@ -1,0 +1,22 @@
+[
+  {
+    "username": "nicky Jam",
+    "password": "password123"
+  },
+  {
+    "username": "Seraphim",
+    "password": "securepassword"
+  },
+  {
+    "username": "admin_user",
+    "password": "adminpass"
+  },
+  {
+    "username": "alice",
+    "password": "alicepass"
+  },
+  {
+    "username": "bob",
+    "password": "bobpass"
+  }
+]

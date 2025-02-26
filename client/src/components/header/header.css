@@ -1,0 +1,129 @@
+@import url("../../index.css");
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.hamburger {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--clr-primary-5);
+}
+li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+a {
+  color: lightblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+nav {
+  background: var(--clr-primary-3);
+  box-shadow: 15 15 15 black;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 3px solid var(--clr-primary-5);
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: blue;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: green;
+  transform: rotate(90deg);
+}
+li {
+  border-top: 1px solid var(--clr-primary-5);
+}
+li:hover {
+  background: var(--clr-primary-7);
+}
+.links a {
+  color: var(--clr-primary-6);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  font-style: itlaic;
+}
+.links a:hover {
+  background: var(--clr-primary-3);
+  color: var(--clr-primary-7);
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+}
+.social-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.social-link {
+  font-size: 1.35rem;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+    border-bottom: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--clr-primary-7);
+  }
+  li {
+    border-top: none;
+  }
+  li:hover {
+    background: none;
+  }
+}

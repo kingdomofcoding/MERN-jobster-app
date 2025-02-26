@@ -1,0 +1,213 @@
+- I have done an todo app which adds items, and paginated it. Now what I have to do is apply crud operations to it. Both on frontEnd and Backend. Thanks to Mr.Bill and Mr.Gates and Mr.Denzel.
+
+- I have to now do an update
+
+//======
+2/18/2025 ... 12:55PM Europe Time ... Tbilisi, Georgia
+Motto: Zero To Hundred 100%
+---
+Goal: What Im doing right now is the delete crud operation, and i think i will finish crud operations, since I just need to add delete and modify the credentials item. ok lets do this. 
+---
+Goal:Assigned
+Completed: ?
+---
+inline-size: 150px;
+overflow-wrap: break-word;
+Problem: when i assign the password and its long, the line runs out its frame. so i found this on...
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text
+
+my fix: 
+.item {
+  color: white;
+  width: 200px;
+  min-height: 45px;
+  height: auto;
+  background: gray;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
+  overflow-wrap: break-word; /* Ensures long words are broken */
+  white-space: normal; /* Allows text to wrap to the next line */
+}
+
+.item span {
+  display: block;
+  width: 80%;
+}
+
+.item-child-1 {
+  flex-basis: 80%;
+}
+.item-child-2 {
+  flex-basis: 15%;
+}
+
+solution: making the spans inside the div which were having problems block elements and second problem was the layout of spans, so i added flex-basis.
+----
+2/19/2025 11:53 AM ->
+Goal: Complete the crud operations, setup the database for crud operations, and fix the crud operations in frontend. Also fix the item(credential) field CSS. Also only delete the ones that are checked.
+Goal Completed: Not Yet.
+
+History: 
+#1 Problem: when i delete 5/5 items 1 is left over. 
+Solution:apparently if had this   setPageMessages((pre) => messages.slice(start, end)); in an if statement, after I deleted the if statement, it works.
+
+?Goal Completed?: crud operations are completed, now i need to setup the full crud operations for today, both frontend and backend. 
+?What Not Done?: I still need to fix item(credential) CSS.
+
+New related Goal: save crud operations to database.
+
+---
+working on post method of credentials. 
+problem: did not add the path to the base domain, for the router controller in frontend
+Problem-Solved:ITs done I solved it...  its https://localhost:3009/api/v1/ not https://localhost:3009
+
+===
+===
+===
+date: 2/20/2025
+Day: Thursday
+Hour: 2:18PM
+----
+Goal: continuing past goal
+
+===
+===
+===
+date: 2/21/2025
+Day: Friday
+Hour: 6:42AM
+----
+Goal: 
+#1 Work on Update Credential
+#1.?:Your function handleUpdateCredentials looks solid! WOOT
+=====
+=====
+=====
+Date:2/22/2025
+Day:Saturday
+Goal:Create a Jobster application called thisisnotajob
+
+Today what I can do is work a little bit on the forms that might need filling on the frontend.
+
+###Working on Header and logo. Installed react-icons
+
+
+====
+====
+====
+Date: 2/23/2025
+Day:Sunday
+Goal:Implement the perfect menu
+- I am so excited to do this. I love the menu project very much. I am going to study this whenever I can, like study it really good and plus ill learn to study.
+
+When you set height: auto; in CSS, the element's height will adjust to fit the content inside it. This means that the height will be determined by the content within the element, rather than being explicitly set by you.
+
+when i say height: 0 - the element's height collapses to , making it invisible or hidden in terms of vertical space.The element will not be rendered visibly on the screen, and it will not take up any vertical space in the layout.
+
+overflow:hidden, although the height collapses of the container, the elements in it are still visible, so we need overflow:hidden to hide it. and thats it. 
+
+than we need height auto to bring the element back to view
+
+=======
+=======
+=======
+Date: 2/24/2025
+Day: Monday
+Time: 2:01PM
+----------------
+----------------
+Goal: seek out a UI/UX design from Microsoft Copilot, and design and develop the User Interface and program it.
+----------------
+Tasks:
+Problem: How to css overlapping bars between content videos.
+.video-section {
+  position: relative;
+  margin: 50px 0; /* Adjust the margin as needed */
+}
+
+.video {
+  width: 100%; /* Full width video */
+  height: 300px; /* Adjust the height as needed */
+  background-color: #000; /* Placeholder for video background */
+}
+
+.overlay-bar {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 50px; /* Height of the bar */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black bar */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  color: white; /* White text color */
+  font-size: 1.2em; /* Increase the font size */
+  font-weight: bold; /* Make the text bold */
+  transform: translateY(-50%); /* Center the bar vertically */
+}
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <div className="video-section">
+        <div className="video">Video 1</div>
+        <div className="overlay-bar">Personal Information</div>
+      </div>
+      <div className="video-section">
+        <div className="video">Video 2</div>
+        <div className="overlay-bar">Additional Information</div>
+      </div>
+      <div className="video-section">
+        <div className="video">Video 3</div>
+        <div className="overlay-bar">More Details</div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+---------
+Important: if we are creating a banner layering in between sections, and section border-bottom is 5px, the banner must be translated -50% and half of the line, so that its in the center
+---------
+=========
+=========
+=========
+2/25/2025
+Tuesday
+5:20PM
+----------
+
+Goal: the many different ones look ugly so just choose the biggest one and increase the size of rest of them to the biggest one, the inputs and labels.
+---
+Task:Study this code in Form. The useEffect and css label and input
+---
+Goal:also make responsive the inputs and labels
+Problem: when responsive 1 is bigger, so we want to calculate the width of label and width of input and 
+label + input 
+
+offsetWidth gives us the total width of the element.
+
+input.style.setProperty("--label-width", `${labelWidth}px`)
+this is an inline style
+
+so what i think about it: we figure out the width of each label.
+--!!!-- create a local variable...
+--2-- we set a new custom property on input: this custom property is a variable holding the width of the label.
+--3-- we use css to make padding-left bigger with the css variable
+
+echo "# MERN-jobster-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kingdomofcoding/MERN-jobster-app.git
+git push -u origin main
