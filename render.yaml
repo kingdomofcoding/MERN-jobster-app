@@ -1,21 +1,9 @@
-# render.yaml
-
 services:
-  - type: web
-    name: mern-job-app-backend
+  - name: my-server
+    type: web
     env: node
-    plan: starter
-    buildCommand: cd server && npm install && npm run build
-    startCommand: cd server && npm start
-    autoDeploy: true
-    repo: https://github.com/kingdomofcoding/MERN-jobster-app
-
-  - type: web
-    name: mern-job-app-frontend
-    env: static
-    plan: starter
-    buildCommand: cd client && npm install && npm run build
-    staticPublishPath: client/dist
-    autoDeploy: true
-    repo: https://github.com/kingdomofcoding/MERN-jobster-app
-# hi
+    buildCommand: "npm install"
+    startCommand: "node server/index.js"
+    envVars:
+      - key: PORT
+        value: 4000
