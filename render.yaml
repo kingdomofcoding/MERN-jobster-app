@@ -5,8 +5,8 @@ services:
     name: mern-job-app-backend
     env: node
     plan: starter
-    buildCommand: cd starter/server && npm install && npm run build
-    startCommand: cd starter/server && npm start
+    buildCommand: cd server && npm install && npm run build
+    startCommand: cd server && npm start
     autoDeploy: true
     repo: https://github.com/kingdomofcoding/MERN-jobster-app
 
@@ -14,7 +14,8 @@ services:
     name: mern-job-app-frontend
     env: static
     plan: starter
-    buildCommand: cd starter/client && npm install && npm run build
-    staticPublishPath: starter/client/dist
+    buildCommand: cd client && npm install && npm run build
+    staticPublishPath: client/dist
     autoDeploy: true
     repo: https://github.com/kingdomofcoding/MERN-jobster-app
+# hi
