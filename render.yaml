@@ -2,11 +2,6 @@ services:
   - name: my-node-server
     type: web
     env: node
-    rootDir: server
+    rootDir: server # <--- Ensures Render uses 'server/' as root
     buildCommand: "npm install && npm run build --prefix ../client"
     startCommand: "node index.js"
-    envVars:
-      - key: MONGO_URI
-        sync: false
-      - key: PORT
-        value: 3009
