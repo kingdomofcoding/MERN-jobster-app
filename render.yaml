@@ -4,4 +4,4 @@ services:
     env: node
     rootDir: server # <--- Ensures Render uses 'server/' as root
     buildCommand: "npm install && npm run build --prefix ../client"
-    startCommand: "node index.js"
+    startCommand: "node server.js"
