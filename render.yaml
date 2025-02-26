@@ -5,16 +5,16 @@ services:
     name: mern-job-app-backend
     env: node
     plan: starter
-    buildCommand: cd/server && npm install && npm run build
-    startCommand: cd/server && npm start
+    buildCommand: cd server && npm install && npm run build
+    startCommand: cd server && npm start
     autoDeploy: true
-    repo: https://github.com/kingdomofcoding/MERN-jobster-app/tree/main/server
+    repo: https://github.com/kingdomofcoding/MERN-jobster-app
 
   - type: web
     name: mern-job-app-frontend
     env: static
     plan: starter
-    buildCommand: cd/client && npm install && npm run build
+    buildCommand: cd client && npm install && npm run build
     staticPublishPath: client/dist
     autoDeploy: true
-    repo: https://github.com/kingdomofcoding/MERN-jobster-app/tree/main/client
+    repo: https://github.com/kingdomofcoding/MERN-jobster-app
