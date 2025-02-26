@@ -8,7 +8,7 @@ services:
     buildCommand: cd/server && npm install && npm run build
     startCommand: cd/server && npm start
     autoDeploy: true
-    repo: https://github.com/kingdomofcoding/MERN-jobster-app
+    repo: https://github.com/kingdomofcoding/MERN-jobster-app/tree/main/server
 
   - type: web
     name: mern-job-app-frontend
@@ -17,4 +17,4 @@ services:
     buildCommand: cd/client && npm install && npm run build
     staticPublishPath: client/dist
     autoDeploy: true
-    repo: https://github.com/kingdomofcoding/MERN-jobster-app
+    repo: https://github.com/kingdomofcoding/MERN-jobster-app/tree/main/client
