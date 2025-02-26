@@ -14,7 +14,9 @@ server.get("*", (req, res) => {
 });
 const start = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect(
+      "mongodb+srv://ceemoney:washingtonheights@cluster0.2dwuveb.mongodb.net/020-Credentials-API?retryWrites=true&w=majority&appName=Cluster0"
+    );
     server.listen(3009, () => console.log(`server has started on port 3009`));
   } catch (err) {
     console.log(err);
