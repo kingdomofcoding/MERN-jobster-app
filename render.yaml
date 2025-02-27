@@ -1,7 +1,0 @@
-services:
-  - name: my-node-server
-    type: web
-    env: node
-    rootDir: starter # ✅ Make sure it's 'starter/'
-    buildCommand: "cd client && npm install && npm run build --prefix client"
-    startCommand: "cd server && node server.js"
