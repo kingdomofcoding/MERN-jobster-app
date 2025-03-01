@@ -1,0 +1,53 @@
+@import url("../../index.css");
+/*  */
+.portfolio-main {
+  height: calc(100vh - 7rem);
+  background: #fff;
+}
+@media screen and (max-width: 800px) {
+  .portfolio-main {
+    height: calc(100vh - 7rem - 3px);
+  }
+}
+.portfolio-center {
+  margin: 0 auto;
+  max-width: 1170px;
+  height: 100%;
+  background: var(--cl-background);
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  gap: 12rem;
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio-container {
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.portfolio-img {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 0.5rem;
+  object-fit: contain;
+  display: block;
+}
+.portfolio-text {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--clr-primary-4);
+  width: 22rem;
+  height: 15rem;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}

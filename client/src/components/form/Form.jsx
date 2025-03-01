@@ -16,7 +16,7 @@ const Form = () => {
   }, []);
 
   return (
-    <div>
+    <div className="form-container-main">
       <form>
         <div className="form-container">
           <div className="form-section">

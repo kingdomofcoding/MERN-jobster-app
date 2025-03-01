@@ -7,6 +7,7 @@ import { FaGoogle } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 const Header = () => {
   const linksRef = useRef(null);
   const linksContainer = useRef(null);
@@ -38,19 +39,19 @@ const Header = () => {
         <div className="links-container" ref={linksContainer}>
           <ul className="links" ref={linksRef}>
             <li className="link">
-              <a className="menu-link" href="">
+              <Link className="menu-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="link">
+              <Link className="menu-link" to="/projects">
+                Projects
+              </Link>
+            </li>
+            <li className="link">
+              <Link className="menu-link" href="">
                 boss
-              </a>
-            </li>
-            <li className="link">
-              <a className="menu-link" href="">
-                bossin
-              </a>
-            </li>
-            <li className="link">
-              <a className="menu-link" href="">
-                bosses
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

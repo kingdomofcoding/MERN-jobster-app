@@ -1,0 +1,50 @@
+@import url("../../index.css");
+/*  */
+.projects-container {
+  width: 100%;
+  height: calc(100vh - 7rem);
+  background: #fff;
+}
+.projects-center {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: var(--cl-background);
+}
+.project-control {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  width: 18rem;
+  height: 18rem;
+
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.project-title {
+  display: block;
+  color: var(--clr-primary-4);
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 800px) {
+  .projects-container {
+    height: calc(100vh - 7rem - 3px);
+  }
+}

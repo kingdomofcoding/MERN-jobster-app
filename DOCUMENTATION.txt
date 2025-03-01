@@ -211,3 +211,29 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/kingdomofcoding/MERN-jobster-app.git
 git push -u origin main
+
+===
+===
+===
+Date: 2/28/2025
+Day: Friday
+Hour: 02:33 PM 
+
+Task: I moved nav-links 5 rem right.
+Task: Calculate the header and big-content 
+5rem + 1 rem + 3px 
++ 20rem + 5px
+
+https://niko-e-commerce.netlify.app/
+https://greenlight-stocks.netlify.app/
+
+adjust css.
+
+===================
+===================
+===================
+Date:03/01/2025
+Day:Saturday
+Time: 01:36 PM
+
+Goal:Work on portfolio page

@@ -14,18 +14,10 @@ li {
   padding: 0.5rem;
 }
 a {
-  color: lightblue;
   text-decoration: none;
-  font-weight: bold;
-}
-.logo {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
 }
 nav {
   background: var(--clr-primary-3);
-  box-shadow: 15 15 15 black;
 }
 .nav-header {
   display: flex;
@@ -85,8 +77,8 @@ li:hover {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
   }
   .nav-header {
@@ -98,6 +90,7 @@ li:hover {
   }
   .links-container {
     height: auto !important;
+    margin-left: 5rem;
   }
   .links {
     display: flex;
