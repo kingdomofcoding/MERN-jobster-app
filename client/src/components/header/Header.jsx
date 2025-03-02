@@ -8,6 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 const Header = () => {
   const linksRef = useRef(null);
   const linksContainer = useRef(null);

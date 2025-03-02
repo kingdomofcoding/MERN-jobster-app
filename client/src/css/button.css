@@ -45,10 +45,9 @@
   text-align: center;
 }
 
-.link-btn:hover span {
+.link-btn span {
   background: none;
 }
-
 .link-btn:active {
   transform: scale(0.9);
 }

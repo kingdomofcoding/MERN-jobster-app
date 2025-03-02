@@ -8,9 +8,7 @@ import FerrariAudioPlayer from "./components/ferrari/Ferrari";
 const App = () => {
   return (
     <Router>
-      <>
-        <FerrariAudioPlayer />
-      </>
+      <></>
       <>
         <Header />
       </>
