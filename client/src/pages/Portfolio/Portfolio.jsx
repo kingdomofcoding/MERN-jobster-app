@@ -17,7 +17,7 @@ const Portfolio = () => {
               mongodb on the backend.
             </span>
             <Link className="link-btn" to="/projects">
-              Check Projects
+              <span class="text">Check Out My Projects</span>
             </Link>
           </div>
         </article>

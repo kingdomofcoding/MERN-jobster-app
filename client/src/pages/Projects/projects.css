@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  min-height: 100%;
   background: var(--cl-background);
 }
 .project-control {
@@ -22,7 +22,6 @@
 }
 .project {
   width: 18rem;
-  height: 18rem;
 
   margin: 2rem;
   justify-content: center;
