@@ -2,7 +2,7 @@
 @import url("./flipcard.css");
 /*  */
 .portfolio-main {
-  height: calc(100vh - 7rem);
+  height: calc(100vh - 7rem - 6px);
   background: #fff;
 }
 
@@ -63,13 +63,6 @@ h1 {
   text-shadow: 1px 1px 1px black;
 }
 
-.link-btn {
-  display: flex;
-  margin-top: 2rem;
-}
-.link-btn span {
-  text-align: center;
-}
 @media screen and (max-width: 950px) {
   .portfolio-center {
     height: auto;
