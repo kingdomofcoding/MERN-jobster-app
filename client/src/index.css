@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Playwrite+IT+Moderna:wght@100..400&display=swap");
 :root {
   /* dark shades of primary color*/
+  font-family: "Playwrite IT Moderna", cursive;
   --cl-background: hsl(50, 70%, 85%);
   --clr-modern: hsl(0, 0%, 20%);
   --clr-primary-1: hsl(22, 76%, 5%);
