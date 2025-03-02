@@ -1,4 +1,5 @@
 @import url("../../index.css");
+@import url("./flipcard.css");
 /*  */
 .portfolio-main {
   height: calc(100vh - 7rem);

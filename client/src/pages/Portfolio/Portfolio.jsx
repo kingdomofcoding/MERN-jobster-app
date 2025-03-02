@@ -9,7 +9,7 @@ const Portfolio = () => {
         <article className="portfolio-container">
           <img className="portfolio-img" src={yourCodeImg} alt="hello" />
           <div className="portfolio-text-container">
-            <h1>What I do</h1>
+            <h1>Who I Am!</h1>
             <span className="portfolio-text">
               Hello, my name is Nikoloz Macharashvili. I have been developing
               User Interfaces for over 4 years with React and Vue. I know SASS,
