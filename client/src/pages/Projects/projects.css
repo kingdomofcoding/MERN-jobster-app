@@ -33,6 +33,9 @@
   height: 100%;
   object-fit: contain;
   border-radius: 1rem;
+  border: 3px solid var(--clr-primary-4);
+  outline: 3px solid var(--clr-primary-4);
+  outline-offset: 15px;
 }
 
 .project-title {
