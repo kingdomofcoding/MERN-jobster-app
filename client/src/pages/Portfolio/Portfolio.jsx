@@ -7,7 +7,7 @@ const Portfolio = () => {
     <section className="portfolio-main">
       <div className="portfolio-center">
         <article className="portfolio-container">
-          <img className="portfolio-img" src={yourCodeImg} alt="hello" />
+          <img className="portfolio-img " src={yourCodeImg} alt="hello" />
           <div className="portfolio-text-container">
             <h1>Who I Am!</h1>
             <span className="portfolio-text">
