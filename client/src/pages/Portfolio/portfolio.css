@@ -4,16 +4,12 @@
   height: calc(100vh - 7rem);
   background: #fff;
 }
-@media screen and (max-width: 800px) {
-  .portfolio-main {
-    height: calc(100vh - 7rem - 3px);
-  }
-}
+
 .portfolio-center {
   margin: 0 auto;
   max-width: 1170px;
-  height: 100%;
   background: var(--cl-background);
+  height: 100%;
 }
 
 .portfolio-container {
@@ -26,28 +22,85 @@
   gap: 12rem;
 }
 
-@media screen and (max-width: 800px) {
-  .portfolio-container {
-    flex-direction: column;
-    gap: 5rem;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 .portfolio-img {
   width: 22rem;
   height: 22rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   object-fit: contain;
   display: block;
+  border: 3px solid var(--clr-primary-4);
+  outline: 3px solid var(--clr-primary-4);
+  outline-offset: 15px;
+}
+
+.portfolio-text-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--clr-primary-3);
+  text-shadow: 3px 3px 3px black;
 }
 .portfolio-text {
   display: block;
   font-size: 1.5rem;
-  color: var(--clr-primary-4);
+  color: var(--clr-primary-3);
   width: 22rem;
-  height: 15rem;
+  height: auto;
   letter-spacing: 3px;
-  line-height: 1.2;
+  line-height: 1.3;
+  text-shadow: 1px 1px 1px black;
+}
+
+.link-btn {
+  display: block;
+  width: 10rem;
+  height: 3.5rem;
+  background: var(--clr-primary-4);
+  color: var(--cl-background);
+  text-align: center;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px var(--clr-primary-4);
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolio-center {
+    height: auto;
+  }
+  .portfolio-container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-img {
+    margin-bottom: 4rem;
+    width: 18rem;
+    height: 18rem;
+  }
+  .portfolio-main {
+    height: calc(100vh - 7rem - 3px);
+  }
+  .portfolio-text-container {
+    margin-top: 4rem;
+  }
+  .portfolio-text {
+    width: auto;
+    padding: 1rem;
+  }
+  .link-btn {
+    margin-bottom: 4rem;
+  }
 }

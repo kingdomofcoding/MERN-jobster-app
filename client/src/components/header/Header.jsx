@@ -48,11 +48,6 @@ const Header = () => {
                 Projects
               </Link>
             </li>
-            <li className="link">
-              <Link className="menu-link" href="">
-                boss
-              </Link>
-            </li>
           </ul>
         </div>
         <ul className="social-icons">
