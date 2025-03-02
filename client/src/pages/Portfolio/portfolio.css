@@ -34,8 +34,6 @@
   object-fit: contain;
   display: block;
   border: 3px solid var(--clr-primary-4);
-  outline: 3px solid var(--clr-primary-4);
-  outline-offset: 15px;
 }
 
 .portfolio-text-container {
