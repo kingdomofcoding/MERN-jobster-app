@@ -31,7 +31,9 @@ const Header = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="logo" />
+          <Link to="/">
+            <img src={logo} className="logo" />
+          </Link>
           <button className="nav-toggle" onClick={showLinks}>
             <GiHamburgerMenu className="hamburger" />
           </button>
