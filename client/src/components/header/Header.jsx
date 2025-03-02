@@ -53,13 +53,12 @@ const Header = () => {
           </ul>
         </div>
         <ul className="social-icons">
+          <li></li>
           <li>
-            <a href="" className="social-link">
-              <FaGoogle />
-            </a>
-          </li>
-          <li>
-            <a href="" className="social-link">
+            <a
+              href="https://www.linkedin.com/in/nikoloz-macharashvili-ab96a6220"
+              className="social-link"
+            >
               <FaLinkedin />
             </a>
           </li>
