@@ -58,6 +58,7 @@ const Header = () => {
             <a
               href="https://www.linkedin.com/in/nikoloz-macharashvili-ab96a6220"
               className="social-link"
+              target="_blank"
             >
               <FaLinkedin />
             </a>
@@ -66,6 +67,7 @@ const Header = () => {
             <a
               href="https://github.com/kingdomofcoding"
               className="social-link"
+              target="_blank"
             >
               <FaGithub />
             </a>
