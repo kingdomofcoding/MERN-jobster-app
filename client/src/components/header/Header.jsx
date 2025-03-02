@@ -63,7 +63,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="" className="social-link">
+            <a
+              href="https://github.com/kingdomofcoding"
+              className="social-link"
+            >
               <FaGithub />
             </a>
           </li>
