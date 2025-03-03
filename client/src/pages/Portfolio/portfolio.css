@@ -29,8 +29,7 @@
 }
 
 .portfolio-img {
-  min-height: calc(100vh - 7rem -7px);
-  height: 100%;
+  height: calc(100vh - 7rem -7px);
   object-fit: cover;
   display: block;
   max-height: 100%;
@@ -58,13 +57,13 @@ h1 {
   font-size: 7rem;
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--clr-primary-3);
+  color: var(--cl-background);
   text-shadow: 3px 3px 3px black;
 }
 .portfolio-text {
   display: block;
   font-size: 1.5rem;
-  color: var(--clr-primary-3);
+  color: var(--cl-background);
   width: 40rem;
   height: auto;
   letter-spacing: 3px;

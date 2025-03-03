@@ -1,4 +1,5 @@
 @import url("../../index.css");
+
 .logz {
   width: 4rem;
   height: 4rem;
@@ -21,7 +22,13 @@ a {
   text-decoration: none;
 }
 nav {
-  background: var(--clr-primary-3);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  background-color: var(--clr-primary-3);
 }
 .nav-header {
   display: flex;
@@ -33,14 +40,13 @@ nav {
 
 .nav-toggle {
   font-size: 1.5rem;
-  color: blue;
+
   background: transparent;
   border-color: transparent;
   transition: all 0.3s linear;
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: green;
   transform: rotate(90deg);
 }
 li {
@@ -50,7 +56,7 @@ li:hover {
   background: var(--clr-primary-7);
 }
 .links a {
-  color: var(--clr-primary-6);
+  color: var(--cl-background);
   font-size: 1.2rem;
   text-transform: capitalize;
   letter-spacing: 2px;
