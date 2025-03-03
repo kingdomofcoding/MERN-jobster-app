@@ -102,7 +102,11 @@ h1 {
   }
   .portfolio-img {
     margin-bottom: 4rem;
-
+    mask-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(0, 0, 0, 0) 100%
+    );
     width: 100%;
     min-height: 50%;
   }
