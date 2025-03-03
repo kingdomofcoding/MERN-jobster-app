@@ -4,6 +4,7 @@ import MainPage from "./pages/Fillout/Fillout";
 import Header from "./components/header/Header";
 import Projects from "./pages/Projects/Projects";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import Logos from "./components/logos/Logos";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <></>
       <>
         <Header />
+        <Logos />
       </>
       <Routes>
         <Route path="/" element={<Portfolio />} />

@@ -4,11 +4,11 @@
 :root {
   /* dark shades of primary color*/
   font-family: "Playwrite IT Moderna", cursive;
-  --cl-background: hsl(50, 70%, 85%);
+  --cl-background: rgb(244, 235, 190);
   --clr-modern: hsl(0, 0%, 20%);
   --clr-primary-1: hsl(22, 76%, 5%);
   --clr-primary-2: hsl(22, 74%, 15%);
-  --clr-primary-3: hsl(23, 75%, 25%);
+  --clr-primary-3: rgb(112, 53, 16);
   --clr-primary-4: hsl(23, 74%, 35%);
   /* primary/main color */
   --clr-primary-5: hsl(23, 75%, 45%);
