@@ -1,8 +1,12 @@
 @import url("../../index.css");
+.logz {
+  width: 4rem;
+  height: 4rem;
+}
 .logo {
-  width: 5rem;
-  height: 5rem;
   border-radius: 50%;
+  height: 100%;
+  width: 100%;
 }
 .hamburger {
   width: 2.5rem;

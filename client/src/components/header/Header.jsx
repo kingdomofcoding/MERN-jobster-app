@@ -32,7 +32,7 @@ const Header = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/">
+          <Link to="/" className="logz">
             <img src={logo} className="logo" />
           </Link>
           <button className="nav-toggle" onClick={showLinks}>
