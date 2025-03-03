@@ -2,7 +2,7 @@ import React from "react";
 import yourCodeImg from "../../assets/your-code.jpeg";
 import "./portfolio.css";
 import { Link } from "react-router-dom";
-import FerrariAudioPlayer from "../../components/ferrari/Ferrari";
+
 const Portfolio = () => {
   return (
     <section className="portfolio-main">
@@ -21,7 +21,6 @@ const Portfolio = () => {
               <Link className="link-btn" to="/projects">
                 <span className="text">Check Out My Projects</span>
               </Link>
-              <FerrariAudioPlayer />
             </div>
           </div>
         </article>

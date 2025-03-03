@@ -4,7 +4,7 @@ import MainPage from "./pages/Fillout/Fillout";
 import Header from "./components/header/Header";
 import Projects from "./pages/Projects/Projects";
 import Portfolio from "./pages/Portfolio/Portfolio";
-import FerrariAudioPlayer from "./components/ferrari/Ferrari";
+
 const App = () => {
   return (
     <Router>
