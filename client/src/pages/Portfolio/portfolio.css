@@ -3,7 +3,7 @@
 
 /*  */
 .portfolio-main {
-  height: calc(100vh - 7rem - 6px);
+  height: calc(100vh - 7rem - 7px);
   background: #fff;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .portfolio-img {
-  min-height: calc(100vh - 7rem);
+  min-height: calc(100vh - 7rem -7px);
   height: 100%;
   object-fit: cover;
   display: block;
