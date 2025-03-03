@@ -36,6 +36,11 @@
   max-height: 100%;
   width: 40vw;
   flex-basis: 40%;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .portfolio-text-container {
