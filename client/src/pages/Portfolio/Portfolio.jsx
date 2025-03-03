@@ -17,7 +17,7 @@ const Portfolio = () => {
               Tailwind, BootStrap, MUI on the frontend. And TypeScript, node,
               mongodb on the backend.
             </span>
-            <div className="center">
+            <div className="center left">
               <Link className="link-btn" to="/projects">
                 <span className="text">Check Out My Projects</span>
               </Link>

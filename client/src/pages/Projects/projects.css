@@ -6,13 +6,12 @@
   background: #fff;
 }
 .projects-center {
-  max-width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  background: var(--cl-background);
+  background: black;
 }
 .project-control {
   display: flex;
