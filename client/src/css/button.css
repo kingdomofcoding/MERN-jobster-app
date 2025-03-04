@@ -48,6 +48,7 @@
 .link-btn span {
   background: none;
 }
+
 .link-btn:active {
   transform: scale(0.9);
 }

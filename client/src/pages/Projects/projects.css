@@ -4,6 +4,18 @@
   width: 100%;
   height: calc(100vh - 7rem - 6px);
   background: #fff;
+  position: relative;
+}
+.projects-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: linear-gradient(to bottom, var(--clr-primary-4), black, black);
+  opacity: 0.4;
+  pointer-events: none;
 }
 .projects-center {
   margin: 0 auto;

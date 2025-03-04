@@ -68,7 +68,7 @@ li:hover {
 .links a:hover {
   background: var(--clr-primary-3);
   color: var(--clr-primary-7);
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   border-radius: 1rem;
 }
 .social-icons {
@@ -107,11 +107,11 @@ li:hover {
     display: flex;
   }
   .links a {
-    padding: 0.5rem;
+    padding: 1rem;
   }
   .links a:hover {
-    padding: 0;
     background: transparent;
+    padding-left: 1rem;
   }
   .social-icons {
     display: flex;

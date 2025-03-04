@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <section className="portfolio-main">
+      <div className="portfolio-overlay"></div>
       <div className="portfolio-center">
         <article className="portfolio-container">
           <img className="portfolio-img " src={yourCodeImg} alt="hello" />
