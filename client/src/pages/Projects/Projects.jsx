@@ -4,7 +4,6 @@ import stockMarketPic from "../../assets/stock-market.png";
 const Projects = () => {
   return (
     <section className="projects-container">
-      <div className="projects-overlay"></div>
       <article className="projects-center">
         <div className="project-control">
           <div className="project">

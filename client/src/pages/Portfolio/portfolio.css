@@ -3,27 +3,19 @@
 
 /*  */
 .portfolio-main {
-  height: calc(100vh - 7rem - 7px);
+  height: calc(100vh - 51px - 96px);
   background: #fff;
   position: relative;
-}
-
-.portfolio-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 5;
-  background: linear-gradient(to bottom, var(--clr-primary-4), black, black);
-  opacity: 0.4;
-  pointer-events: none;
+  background: linear-gradient(
+      to bottom,
+      rgba(155, 74, 23, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../../assets/form-image.png") center/contain;
 }
 
 .portfolio-center {
   margin: 0 auto;
-
-  background: black;
   width: 100%;
   min-height: 100%;
   display: flex;
@@ -42,7 +34,7 @@
 }
 
 .portfolio-img {
-  height: calc(100vh - 7rem -7px);
+  height: calc(100vh - 51px - 96px);
   object-fit: cover;
   display: block;
   max-height: 100%;
@@ -50,7 +42,7 @@
   flex-basis: 40%;
   mask-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 30%,
     rgba(0, 0, 0, 0) 100%
   );
 }
