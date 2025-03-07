@@ -45,8 +45,8 @@ const Logos = () => {
         <span className="alt-text">javascript</span>
       </div>
       <div className="logo-wrapper">
-        <img className="skills-logo" src={typescript} alt="javascript" />
-        <span className="alt-text">javascript</span>
+        <img className="skills-logo" src={typescript} alt="typescript" />
+        <span className="alt-text">typescript</span>
       </div>
       <div className="logo-wrapper">
         <img className="skills-logo" src={react} alt="react" />
