@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 3rem; /* Adjust the gap between the logos as needed */
+  column-gap: 2.5rem; /* Adjust the gap between the logos as needed */
 }
 
 .logo-wrapper {
