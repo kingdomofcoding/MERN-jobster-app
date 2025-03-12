@@ -54,6 +54,7 @@
   border: 2px solid #fff;
   border-top: none;
   margin-top: -0.1rem;
+  padding-bottom: 1rem;
 }
 .project-title {
   display: block;
