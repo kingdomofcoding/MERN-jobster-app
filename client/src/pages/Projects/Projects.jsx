@@ -18,8 +18,13 @@ const Projects = () => {
                 src={eCommercePic}
                 alt="e-commerce"
               />
-              <span className="project-title">e-commerce</span>
             </a>
+            <article className="text-container">
+              <span className="project-title">e-commerce</span>
+              <span className="project-description">
+                Includes Oauth Authorization, Cart, filtering, Stripe Payment
+              </span>
+            </article>
           </div>
           <div className="project">
             <a
@@ -32,8 +37,14 @@ const Projects = () => {
                 src={stockMarketPic}
                 alt="stock-market"
               />
-              <span className="project-title"> stock market</span>
             </a>
+            <article className="text-container">
+              <span className="project-title"> stock market</span>
+              <span className="project-description">
+                Includes Admin Page, Stock Products,View More, Modal, Product
+                Page
+              </span>
+            </article>
           </div>
         </div>
       </article>
