@@ -37,6 +37,8 @@
   height: 100%;
   object-fit: contain;
   border-radius: 1rem;
+  border: 2px solid white; /* Border color set to white */
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; /* Glowing effect for border */
 }
 
 .project-title {
@@ -55,4 +57,33 @@
   .project-control {
     flex-direction: column;
   }
+}
+.project {
+  width: 18rem;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-link {
+  display: block;
+  text-align: center;
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+  border: 2px solid white; /* Border color set to white */
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; /* Glowing effect for border */
+}
+
+.project-title {
+  display: block;
+  color: white; /* Text color set to white */
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; /* Glowing effect */
 }
