@@ -123,6 +123,7 @@ h1 {
   }
   .portfolio-main {
     height: calc(100vh - 51px - 96px);
+    min-height: fit-content;
   }
   .portfolio-text-container {
     margin-top: 4rem;
